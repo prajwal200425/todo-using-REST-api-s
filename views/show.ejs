@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note in details</title>
+    <style>
+        .card {
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card h2, .card h3, .card h4 {
+    margin: 10px 0;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.card h3 {
+    color: #555;
+}
+
+.card h4 {
+    color: #777;
+}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+    <h2>Here the your note in details</h2>
+    <h4> Note ID :<%= lists.id %></h4>
+    <div>
+        <h2><%= lists.title%></h2>
+        <h3><%= lists.note %></h3>
+    </div>
+</div>
+</body>
+</html>

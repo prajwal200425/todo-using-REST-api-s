@@ -1,0 +1,121 @@
+/* Card Container */
+.card {
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #4A90E2;
+    outline: none;
+    box-shadow: 0 0 4px rgba(74, 144, 226, 0.5);
+}
+
+button {
+    /* padding: 8px 16px; */
+
+    border: none;
+    border-radius: 8px;
+    background-color: #4A90E2;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    /* margin-top: 5px; */
+}
+
+.btn{
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #4A90E2;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #357ABD;
+    transform: scale(1.03);
+}
+
+/* Link Button Styling */
+a.button-link {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #4A90E2;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+a.button-link:hover {
+    background-color: #357ABD;
+    transform: scale(1.03);
+}
+
+/* Additional Styling for Consistency */
+.card h2, .card h3, .card h4 {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.card h3 {
+    color: #555;
+}
+
+.card h4 {
+    color: #777;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+h2{
+font-size: 2rem;
+}
+h3{
+ font-size: 1rem;
+}
+
+.create-note-link {
+    text-align: center;
+    margin: 20px 0;
+}
